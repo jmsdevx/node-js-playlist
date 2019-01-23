@@ -12,6 +12,8 @@
 
 //custom events on a class object example
 
+const events = require("events");
+
 class Person extends events.EventEmitter {
   constructor(name) {
     super();
